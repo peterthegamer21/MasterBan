@@ -10,11 +10,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Test extends JavaPlugin {
 
 	public void onEnable() {
-		Bukkit.getServer().getLogger().info("BanMaster Plugin Enabled!");
+		Bukkit.getServer().getLogger().info("MasterBan Plugin Enabled!");
 	}
 	
 	public void onDisable() {
-		Bukkit.getServer().getLogger().info("BanMaster Plugin Disabled!");
+		Bukkit.getServer().getLogger().info("MasterBan Plugin Disabled!");
 	}
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
@@ -26,8 +26,8 @@ public class Test extends JavaPlugin {
 		
 		Player player = (Player) sender;
 		
-		if (cmd.getName().equalsIgnoreCase("wawa")) {
-			player.sendMessage(ChatColor.GOLD + "You ran the test command! Good job!");
+		if (cmd.getName().equalsIgnoreCase("bored")) {
+			player.sendMessage(ChatColor.GOLD + "Mitochondria is the powerhouse of a cell");
 		}
 		return true;
 	}
