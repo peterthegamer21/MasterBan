@@ -1,10 +1,10 @@
-name: test
+name: MasterBan
 version: 1.0
 main: me.peter.test.Test
-author: Peter
-description: A test plugin!
+author: Peter and Jeffin
+description: A Banning Plugin!
  
 commands:
-     wawa:
+     MasterBan:
          usage: /<command>
-         description: A test command!
+         description: Bans a player!
