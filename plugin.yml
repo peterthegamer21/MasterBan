@@ -1,0 +1,10 @@
+name: test
+version: 1.0
+main: me.peter.test.Test
+author: Peter
+description: A test plugin!
+ 
+commands:
+     wawa:
+         usage: /<command>
+         description: A test command!
